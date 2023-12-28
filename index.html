@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_styel.css">
+        
+    </head>
+    <body >
+        
+        <div class="home container text-center">
+            <h1 class=" m-auto">Bookmarker</h1>
+        </div>
+
+
+        <div class="title d-flex justify-content-center align-items-center w-50 m-auto my-4">
+
+            <h2>
+                <i class="fa-solid fa-bookmark fa-1x"></i>
+
+                Bookmark your favorite sites 
+
+                <i class="fa-solid fa-bookmark fa-1x"></i>
+            </h2>   
+            
+        </div>
+
+
+        <div class="labels container  ">
+            <div class="label1 mb-3 ">
+                <label for="" class="text-black py-2">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    Site Name
+                </label>
+                <input id="BName" placeholder="Bookmark Name" class="form-control">
+            </div>
+            <div class="label2 mb-3">
+                <label  class="text-black py-2">
+                    <i class="fa-solid fa-link"></i>
+                    Site URL
+                </label>
+                <input id="BUrl" placeholder="Website URL" class="form-control">
+            </div>
+
+            <button onclick="submit()" class="btn btn-danger px-4 rounded-2">Submit</button>
+        </div>
+
+        <table class="table container my-3 mx-auto">
+
+            <thead>
+                <th>Index</th>
+                <th>Website Name</th>
+                <th>Visit</th>
+                <th class="text-danger">Delete</th>
+            </thead>
+            <tbody id="tBody">
+
+            </tbody>
+
+        </table>
+
+
+
+
+
+
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

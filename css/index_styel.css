@@ -1,0 +1,53 @@
+body
+{
+    background-color: wheat;
+    padding: 50px;
+}
+.home
+{
+    border-width:0 0 2px 0 ;
+    border-style: dotted;
+    padding-bottom: 50px;
+}
+
+
+
+.home h1
+{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    position: relative;
+    width: fit-content;
+   
+}
+.home h1::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0%;
+    bottom: 10px;
+    background-color: #fec260;
+    z-index: -1;
+}
+h1:hover::before
+{
+    height: 50%;
+    transition: 0.5s;
+}
+.title h2
+{
+    background-image:linear-gradient(to right, rgb(60, 165, 92), rgb(181, 172, 73));
+    font-family: Righteous, cursive;
+    font-weight: bold;
+    background-clip: text;
+    color: transparent;
+}
+.labels
+{
+    border-width:0 0 2px 0 ;
+    border-style: dotted;
+    padding-bottom: 50px;  
+}
+
